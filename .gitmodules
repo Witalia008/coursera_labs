@@ -1,3 +1,6 @@
 [submodule "IBM Data Science/IBM_Data_Science_Capstone"]
-    path = IBM Data Science/IBM_Data_Science_Capstone
-    url = https://github.com/Witalia008/IBM_Data_Science_Capstone.git
+	path = IBM Data Science/IBM_Data_Science_Capstone
+	url = https://github.com/Witalia008/IBM_Data_Science_Capstone.git
+[submodule "external/dlaicourse"]
+	path = external/dlaicourse
+	url = https://github.com/lmoroney/dlaicourse.git
