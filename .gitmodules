@@ -4,3 +4,6 @@
 [submodule "external/dlaicourse"]
 	path = external/dlaicourse
 	url = https://github.com/lmoroney/dlaicourse.git
+[submodule "external/words_sdsc_coursera"]
+	path = external/words_sdsc_coursera
+	url = https://github.com/words-sdsc/coursera.git

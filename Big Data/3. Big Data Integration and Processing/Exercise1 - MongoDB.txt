@@ -1,0 +1,7 @@
+show dbs
+use sample
+show db.collections
+db.users.find({"user.Location": { $exists: true, $ne: null }}).count()
+db.users.find({ $where: "this.user.FollowersCount > this.user.FriendsCount" }).count()
+db.users.find({ $and: [{tweet_text: {$regex: "http://"}}, {tweet_text: {$regex: "@espn"}}] }).count()
+db.users.find({ $and: [ {"user.Location": "Ireland"}, {tweet_text: /UEFA/} ] }).sort({"user.FriendsCount": -1})
